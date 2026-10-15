@@ -1,0 +1,14 @@
+Thu Oct 15 16:52:19 EEST 2026 : Apache Derby Network Server - 10.17.1.0 - (1913217) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Thu Oct 15 16:52:35 EEST 2026:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.17.1.0 - (1913217): instance a816c00e-01a1-3fd5-cf64-0000074e0660 
+on database directory /Users/dani/Downloads/db-derby-10.17.1.0-bin/bin/sun-appserv-samples with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@7a8c5397 
+Loaded from file:/Users/dani/Downloads/db-derby-10.17.1.0-bin/lib/derby.jar
+java.vendor=Amazon.com Inc.
+java.runtime.version=25.0.4.1+10-LTS
+user.dir=/Users/dani/Downloads/db-derby-10.17.1.0-bin/bin
+os.name=Mac OS X
+os.arch=aarch64
+os.version=26.3.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
