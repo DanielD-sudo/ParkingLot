@@ -1,5 +1,4 @@
 package com.parking.parkinglot;
-//for first push
 
 import java.io.*;
 
