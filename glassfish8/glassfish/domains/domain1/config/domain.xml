@@ -58,6 +58,7 @@
       <property name="password" value="ParkingLotPassword"/>
       <property name="user" value="ParkingLotUser"/>
       <property name="databaseName" value="ParkingLot"/>
+      <property name="sslMode" value="DISABLED"/>
     </jdbc-connection-pool>
     <jdbc-resource pool-name="ParkingLotConnectionPool" jndi-name="jdbc/ParkingLotResource"/>
   </resources>
@@ -493,10 +494,13 @@
       <property name="archiveType" value="war"/>
       <property name="defaultAppName" value="ParkingLot-1.0-SNAPSHOT"/>
       <property name="appLocation" value="${com.sun.aas.instanceRootURI}/applications/__internal/ParkingLot-1.0-SNAPSHOT/ParkingLot-1.0-SNAPSHOT.war"/>
+      <property name="org.glassfish.ejb.container.application_unique_id" value="117594302719459328"/>
       <module name="ParkingLot-1.0-SNAPSHOT">
+        <engine sniffer="ejb"/>
         <engine sniffer="security"/>
-        <engine sniffer="web"/>
         <engine sniffer="weld"/>
+        <engine sniffer="jpa"/>
+        <engine sniffer="web"/>
       </module>
     </application>
   </applications>
